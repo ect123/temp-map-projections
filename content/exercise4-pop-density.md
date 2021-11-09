@@ -24,7 +24,7 @@ A Feature Dataset is: a collection of feature classes within a geodatabase that 
 
 This layer is in the WGS 1984 Web Mercator Auxiliary Sphere projection, which is used in many web mapping applications, including Google Maps and ArcGIS Online.
 
-*3*{: .circle .circle-blue} Open the attribute table for the**CAN_albersEA** layer too, which is in the Canada Albers Equal Area Conic projection. Recall that this projection preserves area.
+*3*{: .circle .circle-blue} Open the attribute table for the **CAN_albersEA** layer too, which is in the Canada Albers Equal Area Conic projection. Recall that this projection preserves area.
 
 *4*{: .circle .circle-blue} Right-click on the tab of one of the open attribute tables and select **New Horizontal Tab Group**. This will stack the two tables on top of one another so you can view the fields in each table at the same time.
 

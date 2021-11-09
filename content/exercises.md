@@ -20,11 +20,11 @@ Download the data and extract the compressed files into your Downloads folder.  
 
 ![downloads_files.png](../images/downloads_files.png)
 
-Double click the mapProjections ArcGIS Project File.  This will open an project in ArcGIS pro that has alread been setup for your.
+Double click the mapProjections ArcGIS Project File.  This will open a project in ArcGIS pro that has already been setup for you.
 
-What's important is that you understand these different concepts and how they apply to working with spatial data.
+These exercises will help demonstrate how to apply these different concepts we have been talking about to working with spatial data.
 
-These exercises will demonstrate:
+These exercises will address:
 
 - How to recognize whether your data is in a geographic coordinate system
 - How to find the spatial reference system of your dataset in that dataset's properties

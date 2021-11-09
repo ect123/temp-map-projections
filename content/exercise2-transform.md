@@ -7,7 +7,7 @@ parent: Exercises
 
 ## Exercise 2: Projecting on the Fly
 
-*1*{: .circle .circle-blue} From the same project in ArcGIS Pro, click on the the **CAN_lambert** tab representing a different map.
+*1*{: .circle .circle-blue} From the same project in ArcGIS Pro, click on the the **Canada Lambert** tab representing a different map.
 
 Notice the difference in how the default topographic basemap appears in the previous map compared to this one.
 

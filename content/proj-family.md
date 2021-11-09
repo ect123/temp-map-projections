@@ -9,7 +9,7 @@ has_children: true
 
 Let's revisit the main takeaways about projections that we learned from the video at the beginning of class.
 
-See if you can answer the questions below before you reveal the correct answer by clicking on the arrow.
+See if you can answer the questions below before you reveal the correct answer by clicking on the text of the question.
 
 <details>
 <summary>A projection is a mathematical equation to flatten data from a 3D surface onto a ____ plane. </summary>

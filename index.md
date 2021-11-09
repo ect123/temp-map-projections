@@ -28,7 +28,7 @@ Please consult this [article](https://pro.arcgis.com/en/pro-app/get-started/run-
 
 Students are able to download ArcGIS Desktop for \$30 a year.
 
-If you don't want to pay to use the software, you can [sign up for a free trial](https://www.esri.com/en-us/arcgis/trial?rmedium=esri_com_redirects01&rsource=https://links.esri.com/pro/trial).
+If you don't want to pay to use the software, you can [sign up for a free trial](https://www.esri.com/en-us/arcgis/products/arcgis-pro/trial).
 
 ArcGIS is also available on UBC Library's lab computers via VMs on a first-come-first-serve basis. Log in with your CWL to access remote labs here: [remote labs](https://remotelabs.ubc.ca).
 

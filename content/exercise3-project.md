@@ -7,7 +7,7 @@ parent: Exercises
 
 ## Exercise 3: Project Your Data
 
-*1*{: .circle .circle-blue} Open the **Vancouver_UTM_z10** map tab.
+*1*{: .circle .circle-blue} Open the **Vancouver UTM Z10** map tab.
 
 Reset the data source if necessary.
 

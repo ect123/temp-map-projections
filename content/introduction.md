@@ -19,6 +19,9 @@ This introductory video will set the stage for what this workshop is all about.
 * All map projections maintain certain properties while distorting others.
 * Map projections can be useful, but they can also be misleading.
 
+### *Reflection Question*
+(Click the text for the answer)
+
 <details>
 <summary>Who remembers which projection Google Maps uses and why?</summary>
 

@@ -55,8 +55,8 @@ A **vertical** datum defines the height either above or below a nationally defin
 
 > Not all geospatial data needs to have a defined vertical datum, but it makes sense if you are using elevation data in a GIS.
 
-> There was just a new [vertical datum](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/geo-spatial-referencing/vertical-reference-system
-) released last year for BC, important for any sea level rise mapping and accuracy.
+> There is a relatively new [vertical datum](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/geo-spatial-referencing/vertical-reference-system
+) for BC, important for any sea level rise mapping and accuracy.
 
 
 ### A Brief History of Datums
@@ -80,6 +80,9 @@ In 1901, the Meades Ranch triangulation station in Kansas (established in 1891) 
 In 1913, both Canada and Mexico decided to adopt this station as the starting point as well.
 
 As a result, the name of the datum was changed.
+
+### *Reflection Question*
+(Click the text for the answer)
 
 <details>
 <summary>Who can guess what that datum and subsequent datums became called?</summary>
