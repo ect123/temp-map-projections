@@ -28,7 +28,9 @@ False. Every projection is distorted in some way, and some distort the sizes of 
 <details>
 <summary>Who can identify the projection below and which properties it preserves and distorts?</summary>
 
-The Mercator projection preserves direction and shape. In web maps, it's also good for generating map tiles because it projects the world into a square evenly subdivided across zoom levels, and 90 degree turns appear as right angles. The Mercator projection distorts size, or area. Notice the classic example of comparing the size of Greenland to the continent of Africa in this map.
+- The Web Mercator projection preserves direction and shape.
+- In web maps, it's also good for generating map tiles because it projects the world into a square evenly subdivided across zoom levels, and 90 degree turns appear as right angles.
+- The Mercator projection distorts size, or area. Notice the classic example of comparing the size of Greenland to the continent of Africa in this map.
 </details>
 <br>
 
@@ -40,6 +42,10 @@ The Mercator projection preserves direction and shape. In web maps, it's also go
 </figure>
 
 <p>&nbsp;</p>
+
+### Key Message
+
+Projections are what we use to transform latitude and longitude coordinates into more meaningful units, like metres, by transferring the datum to a planar (cartesian) coordinate system.
 
 
 ### Terminology
@@ -59,7 +65,8 @@ Lines of longitude are called meridians and run north-south between the North an
 
 <p>&nbsp;</p>
 
-Map projections are typically categorized into three different types, based on the visualization of light shining through through the earth onto a surface, where the surface is a plane, a cylinder, or a cone, respectively.
+
+Map projections are typically categorized into three different types, based on the visualization of light shining through the earth onto a surface, where the surface is a plane, a cylinder, or a cone, respectively.
 
 
 <figure>

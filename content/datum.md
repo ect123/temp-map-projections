@@ -91,7 +91,7 @@ North American Datum 1913, North American Datum 1927, and so on.
 </details>
 <br>
 
-Below is a breakdown of the differences between datums currently in use.
+Below is a breakdown of the differences between the most common datums currently in use in this part of the world.
 
 ### North American Datum 1927
 
@@ -111,11 +111,12 @@ Below is a breakdown of the differences between datums currently in use.
 
 ### North American Datum 1983
 
-- uses the the Geodetic Reference System (GRS80)
-- uses the Earth's center as the reference point rather than a ranch in Kansas
+- uses the Geodetic Reference System (GRS80)
+- uses the Earth's centre as the reference point rather than a ranch in Kansas
 - based on both ground measurements and satellite information
 - developed using 250,000 stations
 - from 1986 to 2011, this datum has been adjusted four times
+- uses an ellipsoid that tries to fit North America, so it's more accurate for this part of the world
 
 ### World Geodetic System of 1984 (WGS 1984)
 
@@ -123,10 +124,11 @@ Below is a breakdown of the differences between datums currently in use.
 - assumed to be identical to original NAD 83 in conterminous U.S.
 - later iterations in 1996 and 2002 based entirely on GPS observations
 - used by military and GPS systems
+- uses an ellipsoid that attempts to account for the entire world
 
 ### Another datum coming down the pike (2022)
 
-- the National Geodetic Survey in the U.S. is currently working on a new datum
+- the National Geodetic Survey in the U.S. is currently working on a new North American Datum
 - will rely on Global Navigation Satellite Systems (GNSS) and Global Positioning Systems (GPS)
 - will use an updated geoid (hypothetical mean sea level) model
 

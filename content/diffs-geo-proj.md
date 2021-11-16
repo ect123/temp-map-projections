@@ -16,7 +16,7 @@ If you are going to work with geospatial data, you need to understand the differ
 - a system which spans the entire globe
 - uses latitude and longitude
 - based on angles measured on a sphere, usually expressed in degrees
-- not reliable for calculating distance
+- not reliable for measuring distance or area because degrees of longitude are not constant
 
 
 <figure>

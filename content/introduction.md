@@ -27,13 +27,19 @@ This introductory video will set the stage for what this workshop is all about.
 
 Web Mercator
 - Wherever you are on the map, up and down are north and south and left and right are west and east
-- preserves angles of roads
+
+- Preserves angles of roads
+
 - At large scales, the conformality of the projection preserves shapes, such as buildings
+
 - Objects around the equator are to scale relative to one another, while objects closer to the poles appear larger than they really are
 </details>
 <br>
 
 If you're interested in reading more about this projection and some of the criticisms associated with using it, check out this Esri blog [It's Not Hip to Be Square](https://www.esri.com/arcgis-blog/products/arcgis-pro/mapping/mercator-its-not-hip-to-be-square/).
+
+### *Reflection Question*
+(Click the text for the answer)
 
 <details>
 <summary>What are the four properties that are either preserved or distorted depending on the projection?</summary>
