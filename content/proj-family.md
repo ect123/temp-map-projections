@@ -29,7 +29,9 @@ False. Every projection is distorted in some way, and some distort the sizes of 
 <summary>Who can identify the projection below and which properties it preserves and distorts?</summary>
 
 - The Web Mercator projection preserves direction and shape.
+
 - In web maps, it's also good for generating map tiles because it projects the world into a square evenly subdivided across zoom levels, and 90 degree turns appear as right angles.
+
 - The Mercator projection distorts size, or area. Notice the classic example of comparing the size of Greenland to the continent of Africa in this map.
 </details>
 <br>

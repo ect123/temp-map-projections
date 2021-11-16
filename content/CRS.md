@@ -23,9 +23,10 @@ You may all be familiar with a coordinate system from your algebra days. A coord
 
 So, what's the problem?
 
-We live on a 3-diminesional earth that is neither perfectly round nor perfectly spherical.
+We live on a 3-dimensional earth that is neither perfectly round nor perfectly spherical.
 
 - The shape of the earth is mathematically approximated by something called a geoid, which tries to account for the irregularity of the earth's surface.
+
 - An ellipsoid is a smooth-surfaced sphere, onto which we can assign coordinates to specific locations, reflected in degrees of latitude and longitude.
 
 
@@ -42,7 +43,7 @@ So we need a coordinate system that adapts to the Earth's shape.
 <figure>
   <img src="../images/geoidEllipsoid.png"
   alt="geoidEllipsoid">
-  <figcaption><a href="https://www.youtube.com/watch?v=Z41Dt7_R180">A datum aligns a geoid with the ellipsoid at a particular location.</a> (c) <a href="https://www.youtube.com/channel/UCCXRrBW4gGdNbJV1axUhNIw">Rhumb Line Maps.</a> </figcaption>
+  <figcaption><a href="https://www.youtube.com/watch?v=Z41Dt7_R180">Understanding geoids and ellipsoids.</a> (c) <a href="https://www.youtube.com/channel/UCCXRrBW4gGdNbJV1axUhNIw">Rhumb Line Maps.</a> </figcaption>
 </figure>
 
 <p>&nbsp;</p>
