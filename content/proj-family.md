@@ -7,21 +7,21 @@ has_children: true
 
 ## Map Projections
 
-Let's revisit the main takeaways about projections that we learned from the video at the beginning of class.
+Let's revisit some of the main topics we have covered so far.
 
 See if you can answer the questions below before you reveal the correct answer by clicking on the text of the question.
 
 <details>
-<summary>A projection is a mathematical equation to flatten data from a 3D surface onto a ____ plane. </summary>
+<summary>What are the two different kinds of coordinate systems?</summary>
 
-2D.
+Geographic and projected.
 </details>
 <br>
 
 <details>
-<summary>All projections accurately represent the sizes of the continents. True or false. </summary>
+<summary>It is best to measure distance and area with a coordinate system using latitude and longitude as its units. </summary>
 
-False. Every projection is distorted in some way, and some distort the sizes of different land masses a lot.
+False. Latitude and longitude are angular measures and not appropriate for measuring distance or area. Use a projected coordinate system to more accurately measure distances between two locations on the surface of the earth.
 </details>
 <br>
 
@@ -29,9 +29,9 @@ False. Every projection is distorted in some way, and some distort the sizes of 
 <summary>Who can identify the projection below and which properties it preserves and distorts?</summary>
 
 - The Web Mercator projection preserves direction and shape.
-
+<br>
 - In web maps, it's also good for generating map tiles because it projects the world into a square evenly subdivided across zoom levels, and 90 degree turns appear as right angles.
-
+<br>
 - The Mercator projection distorts size, or area. Notice the classic example of comparing the size of Greenland to the continent of Africa in this map.
 </details>
 <br>

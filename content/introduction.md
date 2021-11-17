@@ -27,11 +27,11 @@ This introductory video will set the stage for what this workshop is all about.
 
 Web Mercator
 - Wherever you are on the map, up and down are north and south and left and right are west and east
-
+<br>
 - Preserves angles of roads
-
+<br>
 - At large scales, the conformality of the projection preserves shapes, such as buildings
-
+<br>
 - Objects around the equator are to scale relative to one another, while objects closer to the poles appear larger than they really are
 </details>
 <br>
