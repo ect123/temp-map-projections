@@ -26,6 +26,7 @@ This introductory video will set the stage for what this workshop is all about.
 <summary>Who remembers which projection Google Maps uses and why?</summary>
 
 Web Mercator
+<br>
 - Wherever you are on the map, up and down are north and south and left and right are west and east
 <br>
 - Preserves angles of roads
