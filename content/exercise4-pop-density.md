@@ -36,7 +36,7 @@ The Population field, representing the approximate population of Canada, has bee
 <details>
 <summary>Why are the numbers representing area different for the two projections?</summary>
 
-_The Web Mercator projection does not minimize distortion except for shape, and measurements are most accurate close to the standard parallel, which is the Equator, and less accurate the farther away you get from this line._
+<i>The Web Mercator projection does not minimize distortion except for shape, and measurements are most accurate close to the standard parallel, which is the Equator, and less accurate the farther away you get from this line.</i>
 </details>
 <br>
 
