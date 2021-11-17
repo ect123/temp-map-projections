@@ -87,7 +87,7 @@ As a result, the name of the datum was changed.
 <details>
 <summary>Who can guess what that datum and subsequent datums became called?</summary>
 
-North American Datum 1913, North American Datum 1927, and so on.
+_North American Datum 1913, North American Datum 1927, and so on._
 </details>
 <br>
 

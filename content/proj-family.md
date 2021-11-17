@@ -14,25 +14,25 @@ See if you can answer the questions below before you reveal the correct answer b
 <details>
 <summary>What are the two different kinds of coordinate systems?</summary>
 
-Geographic and projected.
+_Geographic and projected._
 </details>
 <br>
 
 <details>
-<summary>It is best to measure distance and area with a coordinate system using latitude and longitude as its units. </summary>
+<summary>It is best to measure distance and area with a coordinate system using latitude and longitude as its units. True or False. </summary>
 
-False. Latitude and longitude are angular measures and not appropriate for measuring distance or area. Use a projected coordinate system to more accurately measure distances between two locations on the surface of the earth.
+_False. Latitude and longitude are angular measures and not appropriate for measuring distance or area. Use a projected coordinate system to more accurately measure distances between two locations on the surface of the earth._
 </details>
 <br>
 
 <details>
 <summary>Who can identify the projection below and which properties it preserves and distorts?</summary>
 
-- The Web Mercator projection preserves direction and shape.
+- _The Web Mercator projection preserves direction and shape._
 <br>
-- In web maps, it's also good for generating map tiles because it projects the world into a square evenly subdivided across zoom levels, and 90 degree turns appear as right angles.
+- _In web maps, it's also good for generating map tiles because it projects the world into a square evenly subdivided across zoom levels, and 90 degree turns appear as right angles._
 <br>
-- The Mercator projection distorts size, or area. Notice the classic example of comparing the size of Greenland to the continent of Africa in this map.
+- _The Mercator projection distorts size, or area. Notice the classic example of comparing the size of Greenland to the continent of Africa in this map._
 </details>
 <br>
 
@@ -45,7 +45,7 @@ False. Latitude and longitude are angular measures and not appropriate for measu
 
 <p>&nbsp;</p>
 
-### Key Message
+### Recap
 
 Projections are what we use to transform latitude and longitude coordinates into more meaningful units, like metres, by transferring the datum to a planar (cartesian) coordinate system.
 

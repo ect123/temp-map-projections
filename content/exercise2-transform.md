@@ -21,7 +21,7 @@ Notice the units below the map in the centre.
 <details>
 <summary>What do these units tell us about the coordinate system this data and map are in?</summary>
 
-When units are in meters, it's a good indication the data is in a projected coordinate system. Data in a geographic coordinate system is usually in decimal degrees.
+_When units are in meters, it's a good indication the data is in a projected coordinate system. Data in a geographic coordinate system is usually in decimal degrees._
 </details>
 <br>
 
