@@ -8,7 +8,7 @@ parent: Exercises
 ## Exercise 4: Calculating Population Density
 
 ***
-Adapted from a [tutorial](https://june-skeeter.github.io/Module2_GEOS270/docs/Application_Part2_1.html) by June Skeeter
+Created with contributons from June Skeeter.
 
 ***
 
