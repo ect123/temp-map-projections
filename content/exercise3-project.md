@@ -13,7 +13,7 @@ Reset the data source if necessary.
 
 We want to project this data from a geographic into a projected coordinate system using a projection that is more appropriate for this area.
 
-The standard projection used by the City of Vancouver is called **Universal Transverse Mercator (UTM) Zone 10**.
+The standard projection used by the City of Vancouver is called **Universal Transverse Mercator (UTM) Zone 10N**.
 
 The UTM projection divides the earth into 60 zones as a system for assigning coordinates to locations on the surface of the earth.
 
