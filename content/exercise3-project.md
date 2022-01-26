@@ -29,7 +29,7 @@ Sixteen zones, from 7 to 22, cover Canada, and Vancouver falls in Zone 10 North.
 
 You can read more about the [UTM Grid](https://www.nrcan.gc.ca/earth-sciences/geography/topographic-information/maps/utm-grid-map-projections/utm-grid-universal-transverse-mercator-projection/9779) and also [here](https://gisgeography.com/utm-universal-transverse-mercator-projection/).
 
-*2*{: .circle .circle-blue} With the **cityVan_UTMz10** layer highlighted in **Contents**, click on the **View** tab at the top of your screen and select **Geoprocessing**.
+*2*{: .circle .circle-blue} With the **cityVan_WGS1984** layer highlighted in **Contents**, click on the **View** tab at the top of your screen and select **Geoprocessing**.
 
 This will open the **Geoprocessing** pane on the right side of your screen.
 
