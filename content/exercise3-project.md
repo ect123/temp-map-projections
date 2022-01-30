@@ -13,7 +13,7 @@ Reset the data source if necessary.
 
 We want to project this data from a geographic into a projected coordinate system using a projection that is more appropriate for this area.
 
-The standard projection used by the City of Vancouver is called **Universal Transverse Mercator (UTM) Zone 10**.
+The standard projection used by the City of Vancouver is called **Universal Transverse Mercator (UTM) Zone 10N**.
 
 The UTM projection divides the earth into 60 zones as a system for assigning coordinates to locations on the surface of the earth.
 
@@ -29,7 +29,7 @@ Sixteen zones, from 7 to 22, cover Canada, and Vancouver falls in Zone 10 North.
 
 You can read more about the [UTM Grid](https://www.nrcan.gc.ca/earth-sciences/geography/topographic-information/maps/utm-grid-map-projections/utm-grid-universal-transverse-mercator-projection/9779) and also [here](https://gisgeography.com/utm-universal-transverse-mercator-projection/).
 
-*2*{: .circle .circle-blue} With the **cityVan_UTMz10** layer highlighted in **Contents**, click on the **View** tab at the top of your screen and select **Geoprocessing**.
+*2*{: .circle .circle-blue} With the **cityVan_WGS1984** layer highlighted in **Contents**, click on the **View** tab at the top of your screen and select **Geoprocessing**.
 
 This will open the **Geoprocessing** pane on the right side of your screen.
 
