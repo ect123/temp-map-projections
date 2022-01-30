@@ -47,4 +47,5 @@ If you're interested in reading more about this projection and some of the criti
 <summary>What are the four properties that are either preserved or distorted depending on the projection?</summary>
 <br>
 <i>Shape (angle), size (area), direction, and distance<i>
+
 </details>

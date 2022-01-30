@@ -21,6 +21,8 @@ This is just a selection of many resources available on coordinate systems and p
 
 ### Map Projections
 
+[Reimagining Projections for the Interactive Maps Era](https://www.mapbox.com/blog/adaptive-projections)
+
 [Bill’s Quick Guide to Map Projections](https://history.yale.edu/sites/default/files/files/Bill%27s%20quick%20guide%20to%20map%20projections.pdf)
 
 [Interact with projection](http://metrocosm.com/compare-map-projections.html)
