@@ -50,8 +50,7 @@ For the purposes of this workshop, we will only be using **ArcGIS Pro**.
 
 You will also need to download data and project files.
 
-[Download](https://github.com/ubc-library-rc/map-projections/raw/master/data/projections-workshop-data.zip
-){: .btn .btn-blue }
+[Download](https://github.com/ubc-lib-geo/map-projections-data/raw/main/projections-workshop-data.zip){: .btn .btn-blue }
 
 Download the data and extract the compressed files into your **Downloads** folder.
 
