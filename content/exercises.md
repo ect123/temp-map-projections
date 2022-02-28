@@ -12,15 +12,15 @@ These exercises will be accomplished using [ArcGIS Pro](https://www.esri.com/en-
 If you don't have access to the software, that's okay, you can just watch.
 
 
-If you haven't downloaded the data, you can find it here:
+If you haven't already downloaded the data, you can find it here:
 
 [Download](https://github.com/ubc-library-rc/map-projections/raw/master/data/projections-workshop-data.zip){: .btn .btn-blue }
 
-Download the data and extract the compressed files into your Downloads folder.  You will see two folders: gisData and mapProjections.  Open the mapProjections foler and you will see:
+Download the data and extract the compressed files into your Downloads folder.  You will see a mapProjections folder.  Open this folder and you will see:
 
 ![downloads_files.png](../images/downloads_files.png)
 
-Double click the mapProjections ArcGIS Project File.  This will open a project in ArcGIS pro that has already been setup for you.
+Double click the mapProjections ArcGIS Project File.  This will open a project in ArcGIS Pro that has already been setup for you.
 
 These exercises will help demonstrate how to apply these different concepts we have been talking about to working with spatial data.
 
