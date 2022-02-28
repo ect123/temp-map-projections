@@ -41,9 +41,9 @@ The **Lambert Conformal Conic Projection** has characteristics which make it a g
 
 *5*{: .circle .circle-blue} Navigate to the Downloads folder where you downloaded the data for this workshop and click **OK**.
 
-*6*{: .circle .circle-blue} From the **Catalog** pane, expand the **gisData** folder, then the **shapefiles** folder, and add the **CAN_WGS1984** shapefile to the map by dragging it into the **Contents** pane on the left.
+*6*{: .circle .circle-blue} From the **Catalog** pane, expand the **projections-workshop-data>mapProjections>mapProjections.gdb**, and add the **CAN_WGS1984** feature class to the map by dragging it into the **Contents** pane on the left.
 
-Even though you added a shapefile which is in a geographic coordinate system, the shapefile gets projected "on-the-fly" to match the coordinate system of the map, which in this case is in a projected coordinate system.
+Even though you added a feature class which is in a geographic coordinate system, the feature class gets projected "on-the-fly" to match the coordinate system of the map, which in this case is in a projected coordinate system.
 
 ArcGIS Pro chooses a transformation between these two different kinds of coordinate systems that will project the data from one datum to another. You can view the transformations used in the **Map Properties** by right-clicking on the map name under **Drawing Order** in the **Contents** and then clicking on the **Transformation** section.
 

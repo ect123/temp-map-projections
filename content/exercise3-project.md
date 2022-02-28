@@ -43,7 +43,7 @@ You should now see a new window representing the parameters necessary to run the
 
 The input coordinate system is automatically populated.
 
-*5*{: .circle .circle-blue} In the **Output Dataset** box, click the folder next to it and navigate to your shapefiles folder and name the output dataset **cityVan_UTMz10.shp**.
+*5*{: .circle .circle-blue} In the **Output Dataset** box, click the folder next to it, navigate to your mapProjections.gdb, and name the output dataset **cityVan_UTMz10**.
 
 *6*{: .circle .circle-blue} Click on the sphere to the right of the **Output Coordinate System** window to select a coordinate system.
 

@@ -15,7 +15,7 @@ In ArcGIS Pro, each map is automatically loaded with a default topographic basem
 
 *3*{: .circle .circle-blue} Under the **Source** tab, click on **Set Data Source**.
 
-*4*{: .circle .circle-blue} In your Download folder, navigate to  **gisData/shapefiles** select **CAN_WGS1984.shp** then click **OK**.
+*4*{: .circle .circle-blue} In your Downloads folder, navigate to  **projections-workshop-data>mapProjections>mapProjections.gdb**, select **CAN_WGS1984**, then click **OK**.
 
 ### Metadata
 
