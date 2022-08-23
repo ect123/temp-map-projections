@@ -1,0 +1,46 @@
+I"�<h2 id="exercise-2-projecting-on-the-fly">Exercise 2: Projecting on the Fly</h2>
+
+<p><em class="circle circle-blue">1</em> From the same project in ArcGIS Pro, click on the the <strong>Canada Lambert</strong> tab representing a different map.</p>
+
+<p>Notice the difference in how the default topographic basemap appears in the previous map compared to this one.</p>
+
+<p><em class="circle circle-blue">2</em> Open the properties of the dataset to see what the coordinate system is.</p>
+
+<p>The <strong>Lambert Conformal Conic Projection</strong> has characteristics which make it a good possible choice for maps of Canada.</p>
+
+<ul>
+  <li>Offical projection used by Statistics Canada</li>
+  <li>Retains conformality in mid-latitude regions having primarily an east-west direction</li>
+  <li><strong>Not</strong> equal area because distortion increases north and south of the standard parallel (line at which there is no distortion in the map projection)</li>
+</ul>
+
+<p><em class="circle circle-blue">3</em> Navigate to the <strong>Catalog Pane</strong> on the right of your map.</p>
+
+<ul>
+  <li>If it is not visible, click on the <strong>View</strong> tab at the top of the screen and select Catalog Pane from the ribbon menu.</li>
+</ul>
+
+<p><em class="circle circle-blue">4</em> From the <strong>Catalog</strong> pane, expand the <strong>mapProjections&gt;mapProjections.gdb</strong>, and add the <strong>CAN_WGS1984</strong> feature class to the map by dragging it into the <strong>Contents</strong> pane on the left.</p>
+
+<p>Even though you added a feature class which is in a geographic coordinate system, the feature class gets projected “on-the-fly” to match the coordinate system of the map, which in this case is in a projected coordinate system.</p>
+
+<p>ArcGIS Pro chooses a transformation between these two different kinds of coordinate systems that will project the data from one datum to another. You can view the transformations used in the <strong>Map Properties</strong> by right-clicking on the map name under <strong>Drawing Order</strong> in the <strong>Contents</strong> and then clicking on the <strong>Transformation</strong> section.</p>
+
+<p><img src="../images/transformation.jpg" alt="transformation.jpg" /></p>
+
+<p>A <strong>transformation</strong> is a mathematical calculation used to convert coordinates referenced to one datum to coordinates referenced to another datum.</p>
+
+<p>You can see that these two datasets seem to line up perfectly and the units in the lower centre appear as meters.</p>
+
+<p>But projecting on-the-fly does not change the underlying data properties.</p>
+
+<p><em class="circle circle-blue">5</em> Open the properties of the <strong>CAN_WGS1984</strong> to confirm the coordinate system properties.</p>
+
+<p>Taking advantage of on-the-fly projection is okay for visualizing data within the same map.</p>
+
+<p>If you want to do any kind of analysis based on area with your data, you will want to change the projection properties.</p>
+
+<p>We’ll go over how to do this in the next exercise.</p>
+
+<p>See additional information on <a href="https://www.esri.com/arcgis-blog/products/product/mapping/about-geographic-transformations-and-how-to-choose-the-right-one/">transformations</a>.</p>
+:ET

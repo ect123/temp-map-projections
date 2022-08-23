@@ -1,0 +1,128 @@
+I"ì<h2 id="how-to-select-the-right-projection">How to Select the Right Projection</h2>
+
+<p>Keep in mind that all projections either disort or preserve one of the following properties:</p>
+
+<ul>
+  <li><strong>Area/Size</strong>
+    <blockquote>
+      <p>Size of a feature on the map is the same relative to its size on the earth</p>
+    </blockquote>
+  </li>
+  <li><strong>Shape/Angle</strong>
+    <blockquote>
+      <p>Shapes appear the same on a map as they do on the earth
+Maps that preserve shape are called <em>conformal</em></p>
+    </blockquote>
+  </li>
+  <li><strong>Distance</strong>
+    <blockquote>
+      <p>Line between one point on the map and another is the same distance as it is on the earth
+Equidistant maps preserve the true scale for all straight lines passing through a single location, such as Vancouver</p>
+    </blockquote>
+  </li>
+  <li><strong>Direction/Azimuth</strong>
+    <blockquote>
+      <p>Directions from a central location to all other points on the map will be shown correctly</p>
+    </blockquote>
+  </li>
+</ul>
+
+<p>It is useful to think about projections grouped by the properties they preserve.</p>
+
+<p><strong>Equal area projections</strong></p>
+
+<ul>
+  <li>preserve the area of specific features</li>
+  <li>distort shape and angle</li>
+</ul>
+
+<p>The British Columbia (BC) <strong>Albers Equal Area Conic</strong> projection is an example of an equal area projection. This is used province wide when mapping land-use data and is used by <a href="https://ibis.geog.ubc.ca/~brian/Course.Notes/bceprojection.html">BC Environment</a> in part because it represents the whole province on one projection plane.</p>
+
+<p>Albers Equal Area Conic</p>
+
+<figure>
+  <img src="../images/albers.jpg" alt="Albers" />
+  <figcaption><a href="https://gisgeography.com/conic-projection-lambert-albers-polyconic/">The Albers Equal Area Conic projection.</a> <a href="https://gisgeography.com/">GISGeography.</a> </figcaption>
+</figure>
+
+<p>&nbsp;</p>
+
+<p><strong>Conformal projections</strong></p>
+
+<ul>
+  <li>preserve angles and shape</li>
+  <li>distort area</li>
+  <li>lat/long lines intersect at 90-degree angles on the map</li>
+</ul>
+
+<p>The <strong>UTM Zone 10N</strong> projection is a good example. This could be used, for example, when mapping the location of invasive plant species in Vancouver parks.
+For most GIS analysis work, equal area and conformal map projections are used.</p>
+
+<p>Lambert Conformal Conic</p>
+
+<figure>
+  <img src="../images/lambert.jpg" alt="Lambert" />
+  <figcaption><a href="https://gisgeography.com/conic-projection-lambert-albers-polyconic/">The Lambert Conformal Conic projection.</a> <a href="https://gisgeography.com/">GISGeography.</a> </figcaption>
+</figure>
+
+<p>&nbsp;</p>
+
+<p><strong>Equidistant projections</strong></p>
+
+<ul>
+  <li>preserve distances between points by maintaining the scale of a given dataset</li>
+  <li>Outside the given dataset, scale becomes more distorted</li>
+</ul>
+
+<p>The <strong>Two-Point Equidistant</strong> projection is one example of this and allows one to arbitrarily choose two points on the map â€“ the straight-line distance between these points is correct and is used by airports.</p>
+
+<p><strong>True-direction or azimuthal projections</strong></p>
+
+<ul>
+  <li>preserve direction from one point to all other points by maintaining some of the great circle arcs</li>
+  <li>can be combined with equal area, conformal, and equidistant projections</li>
+</ul>
+
+<p>The <strong>Lambert Equal Area Azimuthal</strong> projection and the <strong>Azimuthal Equidistant</strong> projection are examples of azimuthal projections.</p>
+
+<h3 id="characteristics-of-map-projections">Characteristics of Map Projections</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Projection Category</th>
+      <th style="text-align: center">Properties</th>
+      <th style="text-align: right">Common Uses</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Conformal</td>
+      <td style="text-align: center">Preserves local shapes and angles</td>
+      <td style="text-align: right">Topographic maps, navigation charts, weather maps</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Equal Area</td>
+      <td style="text-align: center">Preserves areas</td>
+      <td style="text-align: right">Dot density maps, thematic maps</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Equidistant</td>
+      <td style="text-align: center">Preserves distance from one or two specified points to all other points on the map</td>
+      <td style="text-align: right">Maps of airline distances, seismic maps showing distances from an earthquake epicenter</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Azimuthal</td>
+      <td style="text-align: center">All directions are true from a single specified point (usually the center) to all other points on the map</td>
+      <td style="text-align: right">Navigation and route planning maps</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Compromise</td>
+      <td style="text-align: center">No point is completely distortion free; distortion is minimized near the center and along the equator</td>
+      <td style="text-align: right">World maps</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This section borrows ideas, phrases, and images from Sally Hermansen, <a href="https://gisgeography.com/conic-projection-lambert-albers-polyconic/">GIS Geography</a>, <a href="http://www.geography.hunter.cuny.edu/~jochen/GTECH361/lectures/lecture04/concepts/12%20-%20Choosing%20a%20map%20projection.html">Choosing a Map Projection</a>, <a href="http://www.geography.hunter.cuny.edu/~jochen/GTECH361/lectures/lecture04/concepts/11%20-%20Understanding%20distortion.html">Understanding Distortion</a>, and <a href="http://www.geography.hunter.cuny.edu/~jochen/GTECH361/lectures/">361 Lectures</a>.</p>
+:ET

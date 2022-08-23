@@ -1,0 +1,104 @@
+I"q<h2 id="exercise-4-calculating-population-density">Exercise 4: Calculating Population Density</h2>
+
+<p>Created by June Skeeter.</p>
+
+<hr />
+
+<p><img src="../images/Ex4.png" alt="calcField" /></p>
+
+<p>Your choice of map projection can affect the accuracy of your analysis. This exercise will demonstrate how different projections affect aereal analysis using population density (D), which is calculated using the formula below, where (P) represents population and (A) is the area.</p>
+
+<p><img src="../images/popDens.png" alt="popDens" /></p>
+
+<p><em class="circle circle-blue">1</em> Go to the <strong>Population Density</strong> map tab.</p>
+
+<p><em class="circle circle-blue">2</em> Expand the <strong>webMercator</strong> Feature Dataset to see the <strong>CAN_webMercator</strong> layer inside it.</p>
+
+<ul>
+  <li>A <strong>Feature Dataset</strong> is: a collection of feature classes within a geodatabase that have common properties (eg. projections). When we create a feature dataset, we can specify a projection. Then any layer we add to the feature dataset, will be re-projected to match.  This is a very useful feature to help keep everything organized.</li>
+</ul>
+
+<p><img src="../images/FeatureDataset1.png" alt="calcField" /></p>
+
+<h3 id="create-a-new-feature-dataset">Create a new Feature Dataset</h3>
+
+<p><em class="circle circle-blue">3</em> In the catalog pane, right click on the mapProjections.gdb and select “New Feature Dataset”.  Name it “Albers” and make sure to set the coordiante system to “Canada Albers Equal Area Conic”.  See the video below for reference.</p>
+
+<p><em class="circle circle-blue">4</em> Right click the newly created Albers feature dataset and select Import &gt; Feature Class.  Then imort the <strong>CAN_webMercator</strong> layer, renaming it as <strong>CAN_albersEA</strong>.  The layer will be automattically re-projected from the Web Mercator projection to the Canada Albers Equal Area Conic projection.</p>
+
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="../videos/FeatureDataset.mp4" title="Processes" scrolling="no" frameborder="0" style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
+<p><a href="../videos/FeatureDataset.mp4" target="_blank">View Image in New Tab</a></p>
+
+<h3 id="inspect-the-attribute-tables">Inspect the Attribute Tables</h3>
+
+<p><em class="circle circle-blue">5</em> Right-click the <strong>CAN_webMercator</strong> layer in the <strong>Contents</strong> pane and select <strong>Attribute table</strong> to open it.</p>
+
+<p>This layer is in the WGS 1984 Web Mercator Auxiliary Sphere projection, which is used in many web mapping applications, including Google Maps and ArcGIS Online.</p>
+
+<p><em class="circle circle-blue">6</em> Open the attribute table for the <strong>CAN_albersEA</strong> layer too, which is in the Canada Albers Equal Area Conic projection. Recall that this projection preserves area.</p>
+
+<p><em class="circle circle-blue">7</em> Right-click on the tab of one of the open attribute tables and select <strong>New Horizontal Tab Group</strong>. This will stack the two tables on top of one another so you can view the fields in each table at the same time.</p>
+
+<p>The Population field represents the approximate population of Canada as of the 2021 Census. The Shape_Area field is automatically calculated by the software for feature classes (but not shapefiles). The area represents the area of Canada in meters.</p>
+
+<h3 id="reflection-question"><em>Reflection Question</em></h3>
+<p>(Click the text for the answer)</p>
+
+<details>
+<summary>Why are the numbers representing area different for the two projections?</summary>
+
+<i>The Web Mercator projection does not minimize distortion except for shape, and measurements are most accurate close to the standard parallel, which is the Equator, and less accurate the farther away you get from this line.</i>
+</details>
+<p><br /></p>
+
+<p>See this <a href="https://www.esri.com/arcgis-blog/products/arcgis-enterprise/mapping/measuring-distances-and-areas-when-your-map-uses-the-mercator-projection/">Measuring distances and areas when your map uses the Mercator projection</a> blog post for further explanation about the follies of measuring distances and areas in Web Mercator.</p>
+
+<h3 id="calculating-population-density">Calculating Population Density</h3>
+
+<p><em class="circle circle-blue">8</em> Create a new field in the <strong>CAN_webMercator</strong> layer called <strong>popDensity</strong>.  To do this, right click in the attribut table and select Fields.  In the tab that opens, name tne field popDensity, make sure to change the type to <strong>float</strong> (this data type allows for decimals).  Then <strong>save</strong> the field.  Refer to the video for guidance.</p>
+
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="../videos/newField.mp4" title="Processes" scrolling="no" frameborder="0" style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
+<p><a href="../videos/newField.mp4" target="_blank">View Image in New Tab</a></p>
+
+<p>Right-click on the <strong>popDensity</strong> field in the <strong>CAN_webMercator</strong> attribute table and select <strong>Calculate Field</strong>.</p>
+
+<p><em class="circle circle-blue">6</em> In the <strong>Calculate Field</strong> window, double-click on <strong>Population</strong>, single-click the backslash, double-click <strong>Shape_Area</strong>, and add the asterisk and 1000000 to convert the units to population per square kilometre. Click <strong>OK</strong>.</p>
+
+<p><img src="../images/calcField.png" alt="calcField" /></p>
+
+<p><em class="circle circle-blue">7</em> Calculate the population density for the <strong>CAN_albersEA</strong> layer following the same steps.</p>
+
+<p>Notice how different the two numbers representing population density are for the two layers in different projections.</p>
+
+<h3 id="reflection-question-1"><em>Reflection Question</em></h3>
+<p>(Click the text for the answer)</p>
+
+<details>
+<summary>Which population density number is more accurate and why?</summary>
+
+Because the Canada Albers Equal Area Conic projection preserves area, it is the more appropriate projection to use to make a calculation that involves area.
+</details>
+<p><br /></p>
+:ET
