@@ -14,7 +14,7 @@ If you don't have access to the software, that's okay, you can just watch.
 
 If you haven't already downloaded the data, you can find it here:
 
-[Download](https://ubc-library-rc.github.io/map-projections/data/raw/main/mapProjections.zip){: .btn .btn-blue }
+[Download](https://github.com/ubc-library-rc/map-projections/raw/master/data/mapProjections.zip){: .btn .btn-blue }
 
 Download the data and extract the compressed files into your Downloads folder.  You will see a mapProjections folder.  Open this folder and you will see:
 

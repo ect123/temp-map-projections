@@ -85,7 +85,7 @@ See this [Measuring distances and areas when your map uses the Mercator projecti
 <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
-  <iframe src="../videos/newField.mp4" title="Processes" scrolling="no" frameborder="0"
+  <iframe src="../videos/NewField.mp4" title="Processes" scrolling="no" frameborder="0"
     style="border: 0;
    height: 100%;
    left: 0;
@@ -95,7 +95,7 @@ See this [Measuring distances and areas when your map uses the Mercator projecti
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
-<a href="../videos/newField.mp4" target="_blank">View Image in New Tab</a>
+<a href="../videos/NewField.mp4" target="_blank">View Image in New Tab</a>
 
 *9*{: .circle .circle-blue} Right-click on the **popDensity** field in the **CAN_webMercator** attribute table and select **Calculate Field**.
 
