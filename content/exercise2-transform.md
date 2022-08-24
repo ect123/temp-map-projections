@@ -11,37 +11,19 @@ parent: Exercises
 
 Notice the difference in how the default topographic basemap appears in the previous map compared to this one.
 
-**Reset the data source if you see the red exclamation point.**
-
-Notice the units below the map in the centre.
-
-### *Reflection Question*
-(Click the text for the answer)
-
-<details>
-<summary>What do these units tell us about the coordinate system this data and map are in?</summary>
-
-<i>When units are in meters, it's a good indication the data is in a projected coordinate system. Data in a geographic coordinate system is usually in decimal degrees.</i>
-</details>
-<br>
-
 *2*{: .circle .circle-blue} Open the properties of the dataset to see what the coordinate system is.
 
 The **Lambert Conformal Conic Projection** has characteristics which make it a good possible choice for maps of Canada.
 
-- most commonly used projection at Statistics Canada
-- retains conformality in mid-latitude regions having primarily an east-west direction
-- not equal area because distortion increases north and south of the standard parallel (line at which there is no distortion in the map projection)
+- Offical projection used by Statistics Canada
+- Retains conformality in mid-latitude regions having primarily an east-west direction
+- **Not** equal area because distortion increases north and south of the standard parallel (line at which there is no distortion in the map projection)
 
-*3*{: .circle .circle-blue} Click on the **View** tab at the top of the screen and select **Catalog Pane**. This will open the pane on the right of your map.
+*3*{: .circle .circle-blue} Navigate to the **Catalog Pane** on the right of your map.
 
-*4*{: .circle .circle-blue} Right-click on **Folders** and select **Add Folder Connection**.
+* If it is not visible, click on the **View** tab at the top of the screen and select Catalog Pane from the ribbon menu.
 
-![catalogPane.jpg](../images/catalogPane.jpg)
-
-*5*{: .circle .circle-blue} Navigate to the Downloads folder where you downloaded the data for this workshop and click **OK**.
-
-*6*{: .circle .circle-blue} From the **Catalog** pane, expand the **projections-workshop-data>mapProjections>mapProjections.gdb**, and add the **CAN_WGS1984** feature class to the map by dragging it into the **Contents** pane on the left.
+*4*{: .circle .circle-blue} From the **Catalog** pane, expand the **mapProjections>mapProjections.gdb**, and add the **CAN_WGS1984** feature class to the map by dragging it into the **Contents** pane on the left.
 
 Even though you added a feature class which is in a geographic coordinate system, the feature class gets projected "on-the-fly" to match the coordinate system of the map, which in this case is in a projected coordinate system.
 
@@ -55,7 +37,7 @@ You can see that these two datasets seem to line up perfectly and the units in t
 
 But projecting on-the-fly does not change the underlying data properties.
 
-*7*{: .circle .circle-blue} Open the properties of the **CAN_WGS1984** to confirm the coordinate system properties.
+*5*{: .circle .circle-blue} Open the properties of the **CAN_WGS1984** to confirm the coordinate system properties.
 
 Taking advantage of on-the-fly projection is okay for visualizing data within the same map.
 

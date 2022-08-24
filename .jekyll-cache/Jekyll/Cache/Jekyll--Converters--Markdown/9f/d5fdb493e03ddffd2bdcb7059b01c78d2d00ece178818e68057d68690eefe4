@@ -1,0 +1,46 @@
+I"�
+<h2 id="resources">Resources</h2>
+
+<p>This is just a selection of many resources available on coordinate systems and projections. I’ve included a link to resources specific to QGIS and R, respectively, if you prefer to use different software for GIS analysis.</p>
+
+<p><a href="http://pbcgis.com/projection_fundamentals/">An Overview of Geodesy and Geographic Referencing Systems</a></p>
+
+<p><a href="https://mgimond.github.io/Spatial/">Intro to GIS and Spatial Analysis</a></p>
+
+<p><a href="https://www.esri.com/arcgis-blog/products/arcgis-pro/mapping/coordinate-systems-difference/">Coordinate Systems: What’s the Difference?</a></p>
+
+<p><a href="https://docs.qgis.org/3.10/en/docs/gentle_gis_introduction/coordinate_reference_systems.html#the-three-families-of-map-projections">Coordinate Reference Systems in QGIS</a></p>
+
+<p><a href="https://www.earthdatascience.org/courses/earth-analytics/spatial-data-r/intro-to-coordinate-reference-systems/">Coordinate Reference System and Spatial Projection in R</a></p>
+
+<h3 id="map-projections">Map Projections</h3>
+
+<p><a href="https://www.mapbox.com/blog/adaptive-projections">Reimagining Projections for the Interactive Maps Era</a></p>
+
+<p><a href="https://history.yale.edu/sites/default/files/files/Bill%27s%20quick%20guide%20to%20map%20projections.pdf">Bill’s Quick Guide to Map Projections</a></p>
+
+<p><a href="http://metrocosm.com/compare-map-projections.html">Interact with projection</a></p>
+
+<p><a href="http://thetruesize.com/">Mercator tool</a></p>
+
+<p><a href="https://observablehq.com/@d3/projection-transitions">Mike Bostock Map Transitions</a></p>
+
+<p><a href="https://pubs.er.usgs.gov/publication/pp1395">Map projections: A working manual</a></p>
+
+<p><a href="https://bramus.github.io/mercator-puzzle-redux/">Mercator Puzzle Redux</a></p>
+
+<p><a href="http://metrocosm.com/compare-map-projections.html">Eight Ways of Projecting the World</a></p>
+
+<p><a href="https://www.jasondavies.com/maps/">Interrupted Maps</a></p>
+
+<h3 id="geospatial-information-resources-at-ubc">Geospatial Information Resources at UBC:</h3>
+
+<ul>
+  <li>General Informational website for all things UBC GIS: <a href="https://gis.ubc.ca">gis.ubc.ca</a></li>
+  <li>UBC Library’s guide for finding and working with GIS resources: <a href="https://guides.library.ubc.ca/gis">guides.library.ubc.ca/gis</a></li>
+  <li>UBC’s GIS email list: <a href="https://lists.ubc.ca/scripts/wa.exe?SUBED1=GIS-LIST&amp;A=1">UBC GIS ListServ</a></li>
+  <li>UBC’s GIS Slack (create your own channel or lurk!): <a href="https://ubcgis.slack.com">ubcgis.slack.com</a></li>
+  <li>Sign up for a <a href="https://researchcommons.library.ubc.ca/consultation-requests/">GIS consultation</a> at the Research Commons</li>
+  <li>UBC Library GIS Help email: library.gis AT ubc.ca</li>
+</ul>
+:ET

@@ -1,0 +1,82 @@
+I"�<h2 id="exercise-3-project-your-data">Exercise 3: Project Your Data</h2>
+
+<p><em class="circle circle-blue">1</em> Open the <strong>Vancouver UTM Z10</strong> map tab.</p>
+
+<p>We want to project this data from a geographic into a projected coordinate system using a projection that is more appropriate for this area.</p>
+
+<p>The standard projection used by the City of Vancouver is called <strong>Universal Transverse Mercator (UTM) Zone 10N</strong>.</p>
+
+<p>The UTM projection divides the earth into <a href="https://gisgeography.com/utm-universal-transverse-mercator-projection/">60 Zones</a> as a system for assigning coordinates to locations on the surface of the earth.</p>
+
+<figure>
+  <img src="../images/utm.jpg" alt="Lat Long Grid" />
+  <figcaption><a href="https://www.nrcan.gc.ca/earth-sciences/geography/topographic-information/maps/utm-grid-map-projections/utm-grid-universal-transverse-mercator-projection/9779/">The sixteen zones covering Canada in the UTM projection,</a> Government of Canada.</figcaption>
+</figure>
+
+<p>&nbsp;</p>
+
+<p>Sixteen zones, from 7 to 22, cover Canada, and Vancouver falls in Zone 10 North. The zones are differentiated according to the northern and southern hemispheres.</p>
+
+<p>You can read more about the <a href="https://www.nrcan.gc.ca/earth-sciences/geography/topographic-information/maps/utm-grid-map-projections/utm-grid-universal-transverse-mercator-projection/9779">UTM Grid</a> and also <a href="https://gisgeography.com/utm-universal-transverse-mercator-projection/">here</a>.</p>
+
+<p><em class="circle circle-blue">2</em> With the <strong>cityVan_WGS1984</strong> layer highlighted in <strong>Contents</strong>, click on the <strong>View</strong> tab at the top of your screen and select <strong>Geoprocessing</strong>.</p>
+
+<p>This will open the <strong>Geoprocessing</strong> pane on the right side of your screen.</p>
+
+<p><em class="circle circle-blue">3</em> Type <strong>Project</strong> in the search bar and click on <strong>Project (Data Management Tools)</strong> in the results below.</p>
+
+<p>This formatting is letting you know that <strong>Project</strong> is a tool located in the <strong>Data Management</strong> toolbox.</p>
+
+<p>You should now see a new window representing the parameters necessary to run the <strong>Project</strong> tool.</p>
+
+<p><em class="circle circle-blue">4</em> In the first parameter box, click the dropdown arrow and select <strong>cityVan_WGS1984</strong>.</p>
+
+<p>The input coordinate system is automatically populated.</p>
+
+<p><em class="circle circle-blue">5</em> In the <strong>Output Dataset</strong> box, click the folder next to it, navigate to your mapProjections.gdb, and name the output dataset <strong>cityVan_UTMz10</strong>.</p>
+
+<p><em class="circle circle-blue">6</em> Click on the sphere to the right of the <strong>Output Coordinate System</strong> window to select a coordinate system.</p>
+
+<p><em class="circle circle-blue">7</em> Click on <strong>Projected Coordinate System</strong> to expand this menu and then <em>UTM&gt; North America&gt; NAD 1983 (2011) UTM Zone 10N</em>.</p>
+
+<p><em class="circle circle-blue">8</em> Click on the star to the right of this coordinate system box to add this projection to your favourites, making it easier to use again in the future.</p>
+
+<p><em class="circle circle-blue">9</em> Click <strong>OK</strong> and accept the default transformation populating the <strong>Geographic Transformation</strong> parameter.</p>
+
+<p><em class="circle circle-blue">10</em> click <strong>Run</strong> at the bottom of the pane.</p>
+
+<p>When it is done running, it will say <strong>Project completed</strong> and have a green checkmark next to it when the tool is done running.</p>
+
+<p>The new projected dataset will be added to your map.</p>
+
+<h3 id="reflection-question"><em>Reflection Question</em></h3>
+<p>(Click the text for the answer)</p>
+
+<details>
+<summary>Why does it still look like it's in a GCS and it's units are appearing in decimal degrees?</summary>
+
+<i>This is because the data frame, or map, is in WGS1984, and ArcGIS Pro is projecting the data on-the-fly to line up with the data frame properties.</i>
+</details>
+<p><br /></p>
+
+<h2 id="change-the-map-frames-projection">Change the <em>Map Frame’s</em> Projection</h2>
+
+<p><em class="circle circle-blue">11</em> Double-click on the map name in the <strong>Contents</strong> pane to open the data frame properties.</p>
+
+<p><em class="circle circle-blue">12</em> Under the <strong>Coordinate Systems</strong> section, select the <strong>NAD 1983 (2011) UTM Zone 10N</strong> from your favourites and click <strong>OK</strong>.</p>
+
+<p><img src="../images/spatialRefer.jpg" alt="spatialRefer.jpg" /></p>
+
+<p>You should see the data transform before your eyes.</p>
+
+<p>It’s not important to always know what projection you should be using.</p>
+
+<p>You can google this information or consult a GIS person at the Research Commons.</p>
+
+<p>What’s more important is:</p>
+<ul>
+  <li>that you think to examine a dataset’s coordinate system information</li>
+  <li>that if your data “doesn’t look right” or is not lining up with other data there is likely a projection issue</li>
+  <li>that you understand the complexity of mapping a 3-dimensional, irregular surface on a 2-dimensional plane</li>
+</ul>
+:ET

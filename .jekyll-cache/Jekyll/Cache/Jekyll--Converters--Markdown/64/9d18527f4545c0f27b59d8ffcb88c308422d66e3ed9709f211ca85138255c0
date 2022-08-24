@@ -1,0 +1,31 @@
+I"<h3 id="coordinate-systems">Coordinate Systems</h3>
+
+<ul>
+  <li>Geographic Coordinate System
+    <ul>
+      <li>Uses latitude and longitude and is expressed in decimal degrees</li>
+    </ul>
+  </li>
+  <li>Projected Coordinate System
+    <ul>
+      <li>Uses linear units</li>
+      <li>Projects the earth onto a flat surface</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="datums">Datums</h3>
+
+<ul>
+  <li>A datum mathematically defines the shape and size of the earth and it’s orientation in space</li>
+  <li>A <strong>transformation</strong> is a mathematical calculation used to convert coordinates referenced to one datum to coordinates referenced to another datum.</li>
+</ul>
+
+<h3 id="projections">Projections</h3>
+
+<ul>
+  <li>A projection is the process by which we translate (or project) the spherical globe onto a flat surface.</li>
+  <li>The object onto which maps are projected (i.e. cylinder, cone, or plane) affects the way the map appears.</li>
+  <li>All map projections maintain certain properties while distorting others.</li>
+</ul>
+:ET

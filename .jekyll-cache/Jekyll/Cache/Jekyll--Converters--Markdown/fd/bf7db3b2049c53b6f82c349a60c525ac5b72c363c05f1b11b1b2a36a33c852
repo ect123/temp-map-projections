@@ -1,0 +1,18 @@
+I"q<h2 id="exercise-1-what-coordinate-system-is-my-data-in">Exercise 1: What coordinate system is my data in?</h2>
+
+<p><em class="circle circle-blue">1</em> In the project you just opened, make sure you are in the map tab <strong>WGS1984</strong>.</p>
+
+<p>In ArcGIS Pro, each map is automatically loaded with a default topographic basemap, which takes on the coordinate system of the first dataset added to the map.</p>
+
+<h3 id="inspecting-the-metadata">Inspecting the Metadata</h3>
+
+<p><strong>Metadata</strong> is data about data.  Let’s look at the metadata (<em>i.e. properties</em>) of the dataset to learn a bit about it.</p>
+
+<p><em class="circle circle-blue">2</em> Right-click the data in the Contents pane and select <strong>Properties</strong>.</p>
+
+<p><em class="circle circle-blue">3</em> Under the <strong>Source</strong> tab, expand the <strong>Spatial Reference</strong> section and note what is listed for <strong>Geographic Coordinate System</strong> and <strong>Angular Unit</strong>.</p>
+
+<p><img src="../images/angUnit.jpg" alt="angUnit.jpg" /></p>
+
+<p>In the next exercise we’ll go over projection on-the-fly.</p>
+:ET

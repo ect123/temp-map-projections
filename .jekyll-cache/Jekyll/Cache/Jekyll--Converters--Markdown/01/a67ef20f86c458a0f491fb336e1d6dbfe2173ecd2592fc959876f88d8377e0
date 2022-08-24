@@ -1,0 +1,35 @@
+I"<h2 id="exercises">Exercises</h2>
+
+<p>These exercises will be accomplished using <a href="https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview">ArcGIS Pro</a>. You should have already downloaded the software and the data we will use for this workshop.</p>
+
+<p>If you don’t have access to the software, that’s okay, you can just watch.</p>
+
+<p>If you haven’t already downloaded the data, you can find it here:</p>
+
+<p><a href="https://ubc-library-rc.github.io/map-projections/data/raw/main/mapProjections.zip" class="btn btn-blue">Download</a></p>
+
+<p>Download the data and extract the compressed files into your Downloads folder.  You will see a mapProjections folder.  Open this folder and you will see:</p>
+
+<p><img src="../images/downloads_files.png" alt="downloads_files.png" /></p>
+
+<p>Double click the mapProjections ArcGIS Project File.  This will open a project in ArcGIS Pro that has already been setup for you.</p>
+
+<p>These exercises will help demonstrate how to apply these different concepts we have been talking about to working with spatial data.</p>
+
+<p>These exercises will address:</p>
+
+<ul>
+  <li>How to recognize whether your data is in a geographic coordinate system</li>
+  <li>How to find the spatial reference system of your dataset in that dataset’s properties</li>
+  <li>Projection on-the-fly and changing the projection properties of your data</li>
+  <li>How projection impacts analysis</li>
+</ul>
+
+<h4 id="exercise-1-what-coordinate-system-is-my-data-in">Exercise 1: What Coordinate System is my Data In?</h4>
+
+<h4 id="exercise-2-projecting-on-the-fly">Exercise 2: Projecting On-the-Fly</h4>
+
+<h4 id="exercise-3-project-your-data">Exercise 3: Project Your Data</h4>
+
+<h4 id="exercise-4-calculating-population-density">Exercise 4: Calculating Population Density</h4>
+:ET
