@@ -32,7 +32,7 @@ Your choice of map projection can affect the accuracy of your analysis. This exe
 *3*{: .circle .circle-blue} In the catalog pane, right click on the mapProjections.gdb and select "New Feature Dataset".  Name it "Albers" and make sure to set the coordinate system to "Canada Albers Equal Area Conic".  See the video below for reference.
 
 
-*4*{: .circle .circle-blue} Right click the newly created Albers feature dataset and select Import > Feature Class.  Then import the **CAN_webMercator** layer, renaming it as **CAN_albersEA**.  The layer will be automatically re-projected from the Web Mercator projection to the Canada Albers Equal Area Conic projection.
+*4*{: .circle .circle-blue} Now expand the webMercator Feature dataset and right click on the CAN_webMercator feature class.  Select **Export > Feature Class to Feature Class**.  Make sure CAN_webMercator is the input, the click the folder icon for the Output Feature Class. Navigate to the **Albers** feature dataset and set the name for the output file to **CAN_albersEA**.  The layer will be automatically re-projected from the Web Mercator projection to the Canada Albers Equal Area Conic projection.
 
 * Note the projection of the **Map Frame** is still in the WebMercator.  If you'd like to change it to the ALbers projection, follow the steps outlined in [Exercise 3](exercise3-project.md#change-the-map-frames-projection).  
 
